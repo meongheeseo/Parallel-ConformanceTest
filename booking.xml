@@ -1,0 +1,849 @@
+<machine id="1">
+ 	<packageName>ca.mcgill.ecse429.conformancetest.ccoinbox</packageName>
+	<className>Booking.java</className>
+	<startState id="2">
+    	<name>start</name>
+  	</startState>
+	<states id="3">
+	<state reference="2"/>
+		<state id="4">
+			<name>newBooking</name>
+		</state>
+		<state id="5">
+			<name>cancelled</name>
+		</state>
+		<state id="6">
+			<name>seatFirstClassAssigned</name>
+		</state>
+		<state id="7">
+			<name>seatBusinessAssigned</name>
+		</state>
+		<state id="8">
+			<name>seatCoachAssigned</name>
+		</state>
+		<state id="9">
+			<name>NewState1</name>
+		</state>
+		<state id="10">
+			<name>NewState2</name>
+		</state>
+		<state id="11">
+			<name>NewState3</name>
+		</state>
+		<state id="12">
+			<name>NewState4</name>
+		</state>
+		<state id="13">
+			<name>NewState5</name>
+		</state>
+		<state id="14">
+			<name>NewState6</name>
+		</state>
+		<state id="15">
+			<name>NewState7</name>
+		</state>
+		<state id="16">
+			<name>NewState8</name>
+		</state>
+		<state id="17">
+			<name>NewState9</name>
+		</state>
+		<state id="18">
+			<name>NewState10</name>
+		</state>
+		<state id="19">
+			<name>NewState11</name>
+		</state>
+		<state id="20">
+			<name>NewState12</name>
+		</state>
+		<state id="21">
+			<name>NewState13</name>
+		</state>
+		<state id="22">
+			<name>NewState14</name>
+		</state>
+		<state id="23">
+			<name>NewState15</name>
+		</state>
+		<state id="24">
+			<name>NewState16</name>
+		</state>
+		<state id="25">
+			<name>NewState17</name>
+		</state>
+		<state id="26">
+			<name>NewState18</name>
+		</state>
+		<state id="27">
+			<name>NewState19</name>
+		</state>
+		<state id="28">
+			<name>NewState20</name>
+		</state>
+		<state id="29">
+			<name>checkedIn</name>
+		</state>
+		<state id="30">
+			<name>completed</name>
+		</state>
+	</states>
+
+	<transitions id="31">
+		<transition id="32">
+			<event>@ctor</event>
+			<condition></condition>
+			<action></action>
+			<from reference="2"/>
+			<to reference="4"/>
+		</transition>
+		<transition id="33">
+			<event>assignSeatfirst</event>
+			<condition></condition>
+			<action></action>
+			<from reference="4"/>
+			<to reference="6"/>
+		</transition>
+		<transition id="34">
+			<event>assignSeatBusiness</event>
+			<condition></condition>
+			<action></action>
+			<from reference="4"/>
+			<to reference="7"/>
+		</transition>
+		<transition id="35">
+			<event>assignSeatCoach</event>
+			<condition></condition>
+			<action></action>
+			<from reference="4"/>
+			<to reference="8"/>
+		</transition>
+		<transition id="36">
+			<event>newState1</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="9"/>
+		</transition>
+		<transition id="37">
+			<event>newState1</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="9"/>
+		</transition>
+		<transition id="38">
+			<event>newState1</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="9"/>
+		</transition>
+		<transition id="39">
+			<event>newState2</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="10"/>
+		</transition>
+		<transition id="40">
+			<event>newState2</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="10"/>
+		</transition>
+		<transition id="41">
+			<event>newState2</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="10"/>
+		</transition>
+		<transition id="42">
+			<event>newState3</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="11"/>
+		</transition>
+		<transition id="43">
+			<event>newState3</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="11"/>
+		</transition>
+		<transition id="44">
+			<event>newState3</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="11"/>
+		</transition>
+		<transition id="45">
+			<event>newState4</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="12"/>
+		</transition>
+		<transition id="46">
+			<event>newState4</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="12"/>
+		</transition>
+		<transition id="47">
+			<event>newState4</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="12"/>
+		</transition>
+		<transition id="48">
+			<event>newState5</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="13"/>
+		</transition>
+		<transition id="49">
+			<event>newState5</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="13"/>
+		</transition>
+		<transition id="50">
+			<event>newState5</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="13"/>
+		</transition>
+		<transition id="51">
+			<event>newState6</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="14"/>
+		</transition>
+		<transition id="52">
+			<event>newState6</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="14"/>
+		</transition>
+		<transition id="53">
+			<event>newState6</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="14"/>
+		</transition>
+		<transition id="54">
+			<event>newState7</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="15"/>
+		</transition>
+		<transition id="55">
+			<event>newState7</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="15"/>
+		</transition>
+		<transition id="56">
+			<event>newState7</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="15"/>
+		</transition>
+		<transition id="57">
+			<event>newState8</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="16"/>
+		</transition>
+		<transition id="58">
+			<event>newState8</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="16"/>
+		</transition>
+		<transition id="59">
+			<event>newState8</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="16"/>
+		</transition>
+		<transition id="60">
+			<event>newState9</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="17"/>
+		</transition>
+		<transition id="61">
+			<event>newState9</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="17"/>
+		</transition>
+		<transition id="62">
+			<event>newState9</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="17"/>
+		</transition>
+		<transition id="63">
+			<event>newState10</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="18"/>
+		</transition>
+		<transition id="64">
+			<event>newState10</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="18"/>
+		</transition>
+		<transition id="65">
+			<event>newState10</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="18"/>
+		</transition>
+		<transition id="66">
+			<event>newState11</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="19"/>
+		</transition>
+		<transition id="67">
+			<event>newState11</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="19"/>
+		</transition>
+		<transition id="68">
+			<event>newState11</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="19"/>
+		</transition>
+		<transition id="69">
+			<event>newState12</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="20"/>
+		</transition>
+		<transition id="70">
+			<event>newState12</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="20"/>
+		</transition>
+		<transition id="71">
+			<event>newState12</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="20"/>
+		</transition>
+		<transition id="72">
+			<event>newState13</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="21"/>
+		</transition>
+		<transition id="73">
+			<event>newState13</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="21"/>
+		</transition>
+		<transition id="74">
+			<event>newState13</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="21"/>
+		</transition>
+		<transition id="75">
+			<event>newState14</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="22"/>
+		</transition>
+		<transition id="76">
+			<event>newState14</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="22"/>
+		</transition>
+		<transition id="77">
+			<event>newState14</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="22"/>
+		</transition>
+		<transition id="78">
+			<event>newState15</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="23"/>
+		</transition>
+		<transition id="79">
+			<event>newState15</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="23"/>
+		</transition>
+		<transition id="80">
+			<event>newState15</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="23"/>
+		</transition>
+		<transition id="81">
+			<event>newState16</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="24"/>
+		</transition>
+		<transition id="82">
+			<event>newState16</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="24"/>
+		</transition>
+		<transition id="83">
+			<event>newState16</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="24"/>
+		</transition>
+		<transition id="84">
+			<event>newState17</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="25"/>
+		</transition>
+		<transition id="85">
+			<event>newState17</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="25"/>
+		</transition>
+		<transition id="86">
+			<event>newState17</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="25"/>
+		</transition>
+		<transition id="87">
+			<event>newState18</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="26"/>
+		</transition>
+		<transition id="88">
+			<event>newState18</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="26"/>
+		</transition>
+		<transition id="89">
+			<event>newState18</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="26"/>
+		</transition>
+		<transition id="90">
+			<event>newState19</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="27"/>
+		</transition>
+		<transition id="91">
+			<event>newState19</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="27"/>
+		</transition>
+		<transition id="92">
+			<event>newState19</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="27"/>
+		</transition>
+		<transition id="93">
+			<event>newState20</event>
+			<condition></condition>
+			<action></action>
+			<from reference="6"/>
+			<to reference="28"/>
+		</transition>
+		<transition id="94">
+			<event>newState20</event>
+			<condition></condition>
+			<action></action>
+			<from reference="7"/>
+			<to reference="28"/>
+		</transition>
+		<transition id="95">
+			<event>newState20</event>
+			<condition></condition>
+			<action></action>
+			<from reference="8"/>
+			<to reference="28"/>
+		</transition>
+		
+		<transition id="96">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="9"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="97">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="10"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="98">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="11"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="99">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="12"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="100">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="13"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="101">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="14"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="102">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="15"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="103">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="16"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="104">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="17"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="105">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="18"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="106">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="19"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="107">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="20"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="108">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="21"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="109">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="22"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="110">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="23"/>
+			<to reference="29"/>
+		</transition><transition id="111">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="24"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="112">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="25"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="113">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="26"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="114">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="27"/>
+			<to reference="29"/>
+		</transition>
+		<transition id="115">
+			<event>checkIn</event>
+			<condition></condition>
+			<action></action>
+			<from reference="28"/>
+			<to reference="29"/>
+		</transition>
+		
+		
+		<transition id="116">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="9"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="117">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="10"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="118">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="11"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="119">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="12"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="120">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="13"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="121">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="14"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="122">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="15"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="123">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="16"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="124">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="17"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="125">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="18"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="126">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="19"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="127">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="20"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="128">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="21"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="129">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="22"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="130">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="23"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="131">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="24"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="132">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="25"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="133">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="26"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="134">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="27"/>
+			<to reference="5"/>
+		</transition>
+			<transition id="135">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="28"/>
+			<to reference="5"/>	
+		</transition>
+		
+		<transition id="136">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="29"/>
+			<to reference="5"/>
+		</transition>
+		
+		<transition id="137">
+			<event>complete</event>
+			<condition></condition>
+			<action></action>
+			<from reference="29"/>
+			<to reference="30"/>
+		</transition>
+		
+			<transition id="138">
+			<event>cancel</event>
+			<condition></condition>
+			<action></action>
+			<from reference="4"/>
+			<to reference="5"/>
+		</transition>
+		
+	</transitions>
+</machine>
